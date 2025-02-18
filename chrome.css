@@ -24,8 +24,8 @@
   }
 }
 
-@media not (-moz-bool-pref: "uc.zen-sidebar-tweaks.disable-tweaked-navbar-margin") {
-  /* Make navbar margin the same as everything else */
+@media not (-moz-bool-pref: "uc.zen-sidebar-tweaks.disable-tweaked-search-bar-margin") {
+  /* Make search bar margin the same as everything else */
   #nav-bar {
     margin-bottom: 2px !important;
     margin-top: 3px !important;
