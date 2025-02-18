@@ -12,8 +12,8 @@
         "disabledOn": []
     },
     {
-        "property": "uc.zen-sidebar-tweaks.disable-tweaked-navbar-margin",
-        "label": “Disable tweaked navbar margin”,
+        "property": "uc.zen-sidebar-tweaks.disable-tweaked-search-bar-margin",
+        "label": “Disable tweaked search bar margin”,
         "type": "checkbox",
         "disabledOn": []
     }
