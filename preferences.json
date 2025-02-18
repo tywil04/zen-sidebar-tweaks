@@ -1,0 +1,20 @@
+[
+    {
+        "property": "uc.zen-sidebar-tweaks.disable-pinned-web-panel-sizebar-float-right",
+        "label": “Disable pinning the web panel sidebar to the right”,
+        "type": "checkbox",
+        "disabledOn": []
+    },
+    {
+        "property": "uc.zen-sidebar-tweaks.disable-tweaked-sidebar-toolbar-colors",
+        "label": “Disable tweaked web panel sidebar toolbar colours”,
+        "type": "checkbox",
+        "disabledOn": []
+    },
+    {
+        "property": "uc.zen-sidebar-tweaks.disable-tweaked-navbar-margin",
+        "label": “Disable tweaked navbar margin”,
+        "type": "checkbox",
+        "disabledOn": []
+    }
+]
