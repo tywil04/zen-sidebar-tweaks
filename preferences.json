@@ -1,20 +1,20 @@
 [
     {
-        "property": "uc.zen-web-panel-sidebar-tweaks.disable-pinned-web-panel-sizebar-float-right",
-        "label": "Disable pinning the web panel sidebar to the right",
+        "property": "uc.web-panel-sidebar-tweaks.enable-pinning-web-panel-sidebar-to-right",
+        "label": "Enable pinning the web panel sidebar to the right",
         "type": "checkbox",
-        "disabledOn": []
+        "defaultValue": true
     },
     {
-        "property": "uc.zen-web-panel-sidebar-tweaks.disable-tweaked-sidebar-toolbar-colors",
-        "label": "Disable tweaked web panel sidebar toolbar colours",
+        "property": "uc.web-panel-sidebar-tweaks.enable-tweaked-sidebar-toolbar-colors",
+        "label": "Enable tweaked web panel sidebar toolbar colours",
         "type": "checkbox",
-        "disabledOn": []
+        "defaultValue": true
     },
     {
-        "property": "uc.zen-web-panel-sidebar-tweaks.disable-tweaked-search-bar-margin",
-        "label": "Disable tweaked search bar margin",
+        "property": "uc.web-panel-sidebar-tweaks.enable-tweaked-searchbar-margin",
+        "label": "Enable tweaked searchbar margin",
         "type": "checkbox",
-        "disabledOn": []
+        "defaultValue": true
     }
 ]
