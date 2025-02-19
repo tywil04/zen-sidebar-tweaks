@@ -7,4 +7,4 @@ This theme:
 - Tweaks web panel sidebar toolbar colors to better fit in with zen
 - Makes the margin around the search bar match spacing between main view and web panel sidebar
 
-All of the features can be disabled in theme preferences.
+All of the features can be enabled/disabled in theme preferences.
