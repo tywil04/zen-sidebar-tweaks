@@ -1,5 +1,5 @@
 @media (-moz-bool-pref: "uc.web-panel-sidebar-tweaks.enable-pinning-web-panel-sidebar-to-right") {
-  /* Make the web panel side bar the right-most item */
+  /* Make the web panel side bar the right-most panel */
   #zen-sidebar-web-panel-wrapper:has(#zen-sidebar-web-panel:not([pinned="true"])) {
     order: 1000 !important;
   }
@@ -14,6 +14,11 @@
   #zen-sidebar-web-panel:not([pinned="true"]) .zen-sidebar-web-panel-splitter[side="right"] {
     display: none !important;
     margin: 0 !important;
+  }
+
+  /* Rotate the sidebar button so the icon shows the sidebar as right-most panel */
+  #zen-sidepanel-button {
+    rotate: 180deg;
   }
 }
 
