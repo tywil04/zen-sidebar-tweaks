@@ -1,4 +1,4 @@
-@media not (-moz-bool-pref: "uc.zen-web-panel-sidebar-tweaks.disable-pinned-web-panel-sizebar-float-right") {
+@media (-moz-bool-pref: "uc.web-panel-sidebar-tweaks.enable-pinning-web-panel-sidebar-to-right") {
   /* Make the web panel side bar the right-most item */
   #zen-sidebar-web-panel-wrapper:has(#zen-sidebar-web-panel:not([pinned="true"])) {
     order: 1000 !important;
@@ -17,15 +17,15 @@
   }
 }
 
-@media not (-moz-bool-pref: "uc.zen-web-panel-sidebar-tweaks.disable-tweaked-sidebar-toolbar-colors") {
+@media (-moz-bool-pref: "uc.web-panel-sidebar-tweaks.enable-tweaked-sidebar-toolbar-colors") {
   /* Make the web panel sidebar toolbar colors fit in with zen better */
   #zen-sidebar-web-panel:not([pinned="true"]) {
     background: color-mix(in srgb, var(--toolbarbutton-hover-background) 50%, transparent 50%) !important;
   }
 }
 
-@media not (-moz-bool-pref: "uc.zen-web-panel-sidebar-tweaks.disable-tweaked-search-bar-margin") {
-  /* Make search bar margin the same as everything else */
+@media (-moz-bool-pref: "uc.web-panel-sidebar-tweaks.enable-tweaked-searchbar-margin") {
+  /* Make searchbar margin the same as everything else */
   #nav-bar {
     margin-bottom: 2px !important;
     margin-top: 3px !important;
