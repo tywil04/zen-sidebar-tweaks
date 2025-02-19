@@ -6,14 +6,14 @@
 
   /* Enable the resize handle on the left of the web panel sidebar */
   #zen-sidebar-web-panel:not([pinned="true"]) .zen-sidebar-web-panel-splitter[side="left"] {
-    display: inherit !important;;
-    margin: inherit !important;;
+    display: inherit !important;
+    margin: inherit !important;
   }
 
   /* Disable the resize handle on the right of the web panel sidebar */
   #zen-sidebar-web-panel:not([pinned="true"]) .zen-sidebar-web-panel-splitter[side="right"] {
-    display: none !important;;
-    margin: 0 !important;;
+    display: none !important;
+    margin: 0 !important;
   }
 }
 
