@@ -17,8 +17,8 @@
   }
 
   /* Rotate the sidebar button so the icon shows the sidebar as right-most panel */
-  #zen-sidepanel-button {
-    rotate: 180deg;
+  #zen-sidepanel-button .toolbarbutton-icon {
+    rotate: 180deg !important;
   }
 }
 
